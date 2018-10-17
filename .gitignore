@@ -1,0 +1,12 @@
+.idea
+*.xlsm
+*.xlsx
+__pycache__
+logs
+*.log
+.vscode
+.vscode/*
+*.xls
+.cache/
+*.jpg
+*.jpeg
