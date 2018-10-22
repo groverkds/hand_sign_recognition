@@ -11,6 +11,7 @@ logs
 *.jpg
 *.jpeg
 *.pickle
+data/*.pickle
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

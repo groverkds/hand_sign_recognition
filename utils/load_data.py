@@ -21,7 +21,7 @@ def load_test_data(path):
 	list_files = os.listdir(path)
 	image_dict = {}
 	for file_name in list_files:
-		im = cv2.imread(path+'/'+file_name,cv2.IMREAD_GRAYSCALE)
+		im = cv2.imread(path+'/'+file_name)
 		tr_im = process_image(im)
 		image_dict[file_name.split('.')[0]]=tr_im
 	
@@ -37,7 +37,7 @@ def load_train_data(path):
 		list_files = os.listdir(path+'/'+folder)
 		train_dict[folder]=[]
 		for file_name in list_files:
-			im = cv2.imread(path+'/'+folder+'/'+file_name,cv2.IMREAD_GRAYSCALE)
+			im = cv2.imread(path+'/'+folder+'/'+file_name)
 			tr_im = process_image(im)
 			train_dict[folder].append(tr_im)
 			temp = list(tr_im)
