@@ -41,10 +41,10 @@ def Video():
 		if k == 27:
 			break
 		elif k == ord('c'):
-			o_frame = transform(frame[100:300,400:600])
-			label = predict_label_svm(frame)
-			print(label	)
-			cv2.imshow('output',o_frame)
+			#o_frame = transform(frame[100:300,400:600])
+			label = predict_label_svm(frame[100:300,400:600])
+			print(label)
+			#cv2.imshow('output',o_frame)
 		elif k == ord('s'):
 			cv2.imwrite('images/'+str(cntr)+'.jpg',frame[100:300,400:600])
 			cntr += 1
@@ -80,3 +80,4 @@ if __name__ == "__main__":
 	# test_transformation()
 	# test_images_correlation()
 	Video()
+	cv2.destroyAllWindows()
