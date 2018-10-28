@@ -1,6 +1,8 @@
 # hand_sign_recognition
 A simple sign language recognizer using SVM and scikit-learn's adjusted_rand_score (basic correlation).
+
 Sample video: https://youtu.be/f3pSbjmQBwM
+
 Steps to setup before you run:
 1) install pandas package (pip3 install pandas)
 2) install sklearn (pip3 install scikit-learn)
