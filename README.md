@@ -22,5 +22,7 @@ images/train/A (contains all the photos for A's symbol,similar for other charact
 Folder name convention for test set:
 images/train/A.jpg (Test for A's symbol,similar for other characters)
 
+
+I would suggest you to try with your own hand images for training & testing the model since different hands have different complexion, size, other characteristics.
 To get entire training set (80 mb): https://drive.google.com/drive/folders/0Bw239KLrN7zoNkU5elZMRkc4TU0?usp=sharing
 Training set images were uploaded by Anmol Singh Jaggi.
