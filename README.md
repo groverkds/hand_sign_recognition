@@ -1,5 +1,6 @@
 # Hand Sign Recognition
 *** No more being maintained ***
+
 A simple sign language recognizer using SVM and scikit-learn's adjusted_rand_score (basic correlation).
 
 Sample video: https://youtu.be/f3pSbjmQBwM
